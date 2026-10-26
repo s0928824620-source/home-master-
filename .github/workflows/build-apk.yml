@@ -13,7 +13,7 @@ jobs:
 
       - name: Find and extract project
         run: |
-          ZIP=$(find . -maxdepth 2 -name "home_master_v25_build_readiness.zip" | head -n 1)
+          ZIP=$(find . -maxdepth 2 -name "home_master_p8_content_added.zip" | head -n 1)
           if [ -z "$ZIP" ]; then
             echo "Project ZIP was not found"
             exit 1
